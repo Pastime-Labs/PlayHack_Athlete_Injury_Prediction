@@ -1,0 +1,14 @@
+.pytest_cache/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+cache/
+DataSet/
+Test_DataSet/
+external_data/
+runs/
+artifacts/*
+!artifacts/final_pipeline.joblib
+!artifacts/final_pipeline.manifest.json

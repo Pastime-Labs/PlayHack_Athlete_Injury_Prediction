@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "cutoff": "2026-02-04",
+  "seed": 2026,
+  "training_ids_sha256": "12ddf033c1ad334934bdf75ac7c5399eff979fe82cbc917c1878cd6819186381",
+  "thresholds": {
+    "f1": 0.45999999999999996,
+    "recall99": 0.146
+  },
+  "tcn_epochs": 90,
+  "data_fingerprint": "cc9b639b54c7d624",
+  "selection_evidence_sha256": {
+    "classifier_oof": "672a170acabb7fa7f4bd403535bd5cb50f4d3e16c12d2009dc640067f577f55f",
+    "onset_hgb_oof": "3762b4a1ad59e6930c9f64eca1dc7012f040595f4ef93a9750b12f97b5b33214",
+    "onset_tcn_oof": "ce8c7f5ead13415b06214d5dc7bc5ec308b08645efafb272a6f3bb708f15ae67",
+    "model_evidence": "00c09b43b06db8df35faba2fbea550cdb42e6d3c129f323e6d3bf78a49edfc94"
+  },
+  "requirements_sha256": "53cf0cec0ffa68250fbade4b3d3cbeae4b59b628fdadd6d665aa0fb5f4219a4b",
+  "source_sha256": "c1b70d06719655e302363a03fbb14dd3cfc75ca0319b092ef10dcff4eb76b7da",
+  "dependencies": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.8.0",
+    "joblib": "1.5.3",
+    "torch": "2.11.0+cpu"
+  },
+  "artifact": "artifacts\\final_pipeline.joblib",
+  "artifact_sha256": "38812a33e0bb5d5785e2d8fc6ce724c5f2c90d8e7e1cfb51a3b41c6a1d882f9a"
+}

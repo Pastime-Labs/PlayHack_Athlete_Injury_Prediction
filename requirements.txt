@@ -1,0 +1,9 @@
+numpy==2.3.5
+pandas==2.3.3
+scipy==1.17.1
+scikit-learn==1.8.0
+joblib==1.5.3
+pytest==9.1.1
+catboost==1.2.10
+aeon==1.5.0
+torch==2.11.0
